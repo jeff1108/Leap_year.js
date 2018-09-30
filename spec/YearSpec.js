@@ -1,8 +1,7 @@
-describe("Year", function() {
-  var player;
+describe("LeapYear", () => {
+  // var leapyear;
 
-  beforeEach(function() {
-    year = new Year();
-    song = new Song();
+  it('returns leapyear when year is divisible by 400', () => {
+    expect(LeapYear(400)).toEqual('Year 400 is a leap year')
   });
 });
